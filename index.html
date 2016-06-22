@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<title>Web Workers</title>
+<link rel="stylesheet" href="styles.css">
+
+<h1>Web workers</h1>
+<p id="status">Your browser does not support Web workers.</p>
+
+<button id="startDistortionButton" disabled>Distort</button>
+<button id="stopButton" disabled>Stop Distortion</button>
+<button onclick="document.location = document.location;">Reload</button>
+
+<label for="workerCount">Number of Workers</label>
+<select id="workerCount">
+	<option>1</option>
+	<option>2</option>
+	<option>4</option>
+	<option>8</option>
+	<option>16</option>
+</select>
